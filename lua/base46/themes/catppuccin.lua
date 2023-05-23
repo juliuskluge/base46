@@ -1,7 +1,7 @@
 local M = {}
 
 M.base_30 = {
-  white = "#eff2f8",
+  white = "#D9E0EE",
   darker_black = "#191828",
   black = "#1E1D2D", --  nvim bg
   black2 = "#252434",
@@ -54,7 +54,7 @@ M.base_16 = {
 }
 
 M.polish_hl = {
-  ["@variable"] = { fg = M.base_30.lavender },
+  ["@variable"] = { fg = M.base_30.white },
   ["@property"] = { fg = M.base_30.teal },
   ["@variable.builtin"] = { fg = M.base_30.red },
 }
